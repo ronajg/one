@@ -28,7 +28,7 @@ jobs:
           context: ./src  # Path to the Dockerfile and build context
           push: true
           tags: |
-            ronajg/gera:${{ github.sha }}
+            ronajg/gera:wonderful007
 
       - name: Logout from Docker Hub
         run: docker logout
